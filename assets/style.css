@@ -1,0 +1,107 @@
+body{
+  font-family: 'Arsenal', sans-serif;
+  background-image: url('https://photokitfrost.files.wordpress.com/2013/09/aspens-sept-26-2009.jpg');
+  background-size: 200%;
+  background-repeat: repeat;
+}
+ul{
+  width: 100%;
+}
+li{
+  margin: 5px 40px 0 0;
+}
+a{
+  width: 100px;
+  color: #202F37;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+.jumbotron{
+  color: #202F37;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+h2{
+font-family: 'Abril Fatface', cursive;
+}
+.container {
+  text-align: center;
+}
+.writing{
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 5px;
+}
+.projects{
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 5px;
+}
+.sections{
+  padding: 5px 0;
+}
+.row{
+  padding: 0 10%;
+}
+.col-4{
+  margin: 1% 0% 3%;
+  padding-top: 30px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+  height: 10em;
+  width: 10em;
+  background-color: rgba(57, 67, 74, 0.25);
+}
+div.row div:nth-child(2) {
+  margin: 1% 23%;
+}
+.work{
+  padding-top: 2px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif;
+  background: none;
+}
+h4{
+    margin: 0;
+}
+.about{
+  text-align: left;
+}
+h3{
+  font-weight: bold;
+}
+h5{
+  font-style: italic;
+}
+.resume-list{
+  list-style: none;
+}
+.fa{
+  color: #3D5596;
+  font-size: 80px;
+}
+.copyright{
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+@media only screen and (max-width: 992px) {
+  div.row div:nth-child(2) {
+    margin: 1% 5%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  div.row div:nth-child(2) {
+    margin: 1% 1%;
+  }
+  .row{
+    padding: 0 5%;
+  }
+}
+#essayArea{
+  font-weight: bold;
+  text-align: left;
+  padding: 2%;
+  background-color: white;
+}

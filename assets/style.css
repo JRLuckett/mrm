@@ -1,7 +1,7 @@
 body{
   font-family: 'Arsenal', sans-serif;
   background-image: url('https://photokitfrost.files.wordpress.com/2013/09/aspens-sept-26-2009.jpg');
-  background-size: 200%;
+  background-size: 225%;
   background-repeat: repeat;
 }
 ul{
@@ -65,6 +65,9 @@ div.row div:nth-child(2) {
 h4{
     margin: 0;
 }
+.copy{
+  text-align: center;
+}
 .about{
   text-align: left;
 }
@@ -85,6 +88,9 @@ h5{
   position: absolute;
   bottom: 0;
   left: 40%;
+}
+p{
+  line-height: 1.75;
 }
 @media only screen and (max-width: 992px) {
   div.row div:nth-child(2) {
